@@ -1,0 +1,31 @@
+{
+  "name": "adman-auction",
+  "version": "1.0.0",
+  "description": "A demonstration microservice for auctioning ads",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/reselbob/adman.git"
+  },
+  "keywords": [
+    "demos"
+  ],
+  "author": "Bob Reselbob <reselbob@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/reselbob/adman/issues"
+  },
+  "homepage": "https://github.com/reselbob/adman#readme",
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^6.2.0"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "resel-redis-broker": "^1.0.2",
+    "uuid": "^3.3.3"
+  }
+}
